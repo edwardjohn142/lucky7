@@ -1,0 +1,126 @@
+
+
+
+
+
+
+
+
+header > .top > .inner > .no-auth {
+    float: right;
+    padding: 9px 0;
+
+}
+
+
+
+
+.burger{
+    height: 28px;
+    width: 30px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 13px;
+    display: none;
+}
+
+.burger > span{
+    width: 30px;
+    display: block;
+}
+.burger > span:nth-child(odd){
+    height: 5px;
+    width: 30px;
+    background-color: #1f1916;
+    border-radius: 10px;
+}
+
+
+.burger > span:nth-child(even){
+    height: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+    header > .top > .inner > .logo{
+        float: left;
+    }
+
+    
+    header > .top > .inner > .no-auth{
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    header > .top > .inner{
+        text-align: center;
+    }
+
+    .burger{
+        display: inline-block;
+    }
+
+    .desktop{
+        display: none!important;
+    }
+
+    header > .top > .inner{
+        padding: 0  ;
+        text-align: center;
+    }
+
+    header > .bottom > .inner > .scroll > a > span{
+        width: 60px!important;
+    }
+    header > .bottom > .inner> .scroll  > a,
+    header > .bottom > .inner > .scroll > a > span,
+    header > .bottom{
+        height: 50px!important;
+    }
+
+    header > .bottom{
+        height: 50px;
+    }
+
+    header > .bottom > .inner> .scroll  > a:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    header > .bottom > .inner > .scroll > a.oz > span{
+        background-image: url(../image/casino/oz.png);
+    }
+    
+    header > .bottom > .inner > .scroll > a.cod > span{
+        background-image: url(../image/casino/cod.png);
+    }
+    
+    header > .bottom > .inner > .scroll > a.eight > span{
+        background-image: url(../image/casino/eight.png);
+    }
+    
+    header > .bottom > .inner > .scroll > a.evo > span{
+        background-image: url(../image/casino/evo.png);
+    }
+    
+    header > .bottom > .inner > .scroll > a.midas > span{
+        background-image: url(../image/casino/midas.png);
+    }
+    
+    header > .bottom > .inner > .scroll > a.solaire > span{
+        background-image: url(../image/casino/solaire.png);
+    }
+    
+    header > .bottom > .inner > .scroll > a.okada > span{
+        background-image: url(../image/casino/okada.png);
+    }
+}
+
+
+@media only screen and (max-width : 678px){
+
+
+}
