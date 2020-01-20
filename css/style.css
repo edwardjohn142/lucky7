@@ -391,71 +391,72 @@ footer{
 }
 
 .game-container > a{
-
+    transition: none;
     position: relative;
     width: 93px;
     display: inline-block;
 }
 
 .game-container > .oz.oe{
-    left: -147px;
-    top: 19px;
+    left: 89px;
+    top: -25px;
     
+}
+.game-container > .oz.bc{
+    left: 155px;
+    top: 63px;
 }
 
 .game-container > .oz.nn{
-    left: -20px;
-    top: 13px;
+    left: 220px;
+    top: -27px;
 }
 
-.game-container > .oz.bc{
-    left: -81px;
-    top: 99px;
-}
 
 .game-container > .oz.gs{
-    left: 45px;
-    top: 99px;
+    left: 286px;
+    top: 59px;
 }
 
 
 .game-container > .evo.rou{
-    left: -600px;
-    top: 188px;
 
+    left: -147px;
+    top: 19px;
 }
 
 .game-container > .evo.bj{
-    left: 250px;
-    top: 63px;
+    left: -81px;
+    top: 99px;
 }
 
 
 .game-container > .evo.ch{
-    left: 317px;
-    top: -27px;
+
+    left: -20px;
+    top: 13px;
 }
 
 .game-container > .evo.bc{
-    left: 377px;
-    top: 59px;
+    left: 45px;
+    top: 99px;
 }
 
 .game-container > .md.bc{
-    left: -204px;
-    top: 149px;
+    left: 45px;
+    top: 9px;
 }
 
 
 .game-container > .ei.bc{
-    left: 26px;
-    top: 149px;
+    left: 343px;
+    top: -27px;
 }
 
 
 .game-container > .ez.fp{
     left: -396px;
-    top: 321px;
+    top: 145px;
 
 }
 
@@ -466,7 +467,7 @@ footer{
 
 .game-container > .ez.td{
     left: -265px;
-    top: 321px;
+    top: 145px;
 }
 
 .game-container > .ez.md{
@@ -476,7 +477,33 @@ footer{
 
 .game-container > .ez.ws{
     left: 635px;
-    top: 107px;
+    top: -63px;
+}
+.game-container > .ez.sh{
+    left: 700px;
+    top: -150px;
+}
+
+.game-container > .ez.fs{
+    left: -198px;
+    top: 109px;
+}
+
+
+.game-container > .ez.dd{
+    left: 21px;
+    top: 109px;
+}
+
+.game-container > .ez.fl{
+    left: 247px;
+    top: 109px;
+}
+
+
+.game-container > .ez.kv{
+    left: 309px;
+    top: 25px;
 }
 
 .game-container > a > span{
@@ -491,7 +518,6 @@ footer{
 
 .game-container > .oz.oe > span{
     background-image: url(../image/Web/Banner_Off_Oz01.png);
-    margin-left: -66px;
 }
 
 
@@ -502,7 +528,7 @@ footer{
 
 .game-container > .oz.bc > span{
     background-image: url(../image/Web/Banner_Off_Oz02.png);
-    margin-left: -66px;
+   
 }
 
 .game-container > .oz.bc:hover > span{
@@ -512,7 +538,7 @@ footer{
 
 .game-container > .oz.nn > span{
     background-image: url(../image/Web/Banner_Off_Oz03.png);
-    margin-left: -66px;
+
 }
 
 .game-container > .oz.nn:hover > span{
@@ -522,7 +548,7 @@ footer{
 
 .game-container > .oz.gs > span{
     background-image: url(../image/Web/Banner_Off_Oz04.png);
-    margin-left: -66px;
+
 }
 
 .game-container > .oz.gs:hover > span{
@@ -536,9 +562,8 @@ footer{
 
 .game-container > .evo.rou > span{
     background-image: url(../image/Web/Banner_Off_Evol01.png);
+    margin-left: -66px;
 }
-
-
 
 .game-container > .evo.bj:hover > span{
     background-image: url(../image/Web/Banner_On_Evo02.png);
@@ -546,6 +571,7 @@ footer{
 
 
 .game-container > .evo.bj > span{
+    margin-left: -66px;
     background-image: url(../image/Web/Banner_Off_Evol02.png);
 }
 
@@ -556,6 +582,7 @@ footer{
 
 .game-container > .evo.ch > span{
     background-image: url(../image/Web/Banner_Off_Evol03.png);
+    margin-left: -66px;
 }
 
 
@@ -566,6 +593,7 @@ footer{
 
 .game-container > .evo.bc > span{
     background-image: url(../image/Web/Banner_Off_Evol04.png);
+    margin-left: -66px;
 }
 
 
@@ -626,4 +654,49 @@ footer{
 
 .game-container > .ez.ws:hover > span{
     background-image: url(../image/Web/Banner_On_Ez05.png);
+}
+
+.game-container > .ez.sh > span{
+    background-image: url(../image/Web/Banner_Off_Ez09.png);
+}
+
+.game-container > .ez.sh:hover > span{
+    background-image: url(../image/Web/Banner_On_Ez09.png);
+}
+
+
+.game-container > .ez.fs > span{
+    background-image: url(../image/Web/Banner_Off_Ez06.png);
+}
+
+.game-container > .ez.fs:hover > span{
+    background-image: url(../image/Web/Banner_On_Ez06.png);
+}
+
+
+.game-container > .ez.dd > span{
+    background-image: url(../image/Web/Banner_Off_Ez07.png);
+}
+
+.game-container > .ez.dd:hover > span{
+    background-image: url(../image/Web/Banner_On_Ez07.png);
+}
+
+
+.game-container > .ez.fl > span{
+    background-image: url(../image/Web/Banner_Off_Ez08.png);
+}
+
+.game-container > .ez.fl:hover > span{
+    background-image: url(../image/Web/Banner_On_Ez08.png);
+}
+
+
+
+.game-container > .ez.kv > span{
+    background-image: url(../image/Web/Banner_Off_Ez10.png);
+}
+
+.game-container > .ez.kv:hover > span{
+    background-image: url(../image/Web/Banner_On_Ez10.png);
 }
