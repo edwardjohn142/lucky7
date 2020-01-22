@@ -172,9 +172,13 @@ header > .bottom{
 }
 
 
+header > .bottom > .inner{
+    max-width: initial;
+}
+
 .inner{
     margin: 0 auto;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     overflow: hidden;
     width: 100%;
 }
