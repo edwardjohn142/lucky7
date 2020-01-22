@@ -82,12 +82,12 @@ header > .top > .inner > .no-auth {
     }
 
     header > .bottom > .inner > .scroll > a > span{
-        width: 60px!important;
+        width: 125px!important;
     }
     header > .bottom > .inner> .scroll  > a,
     header > .bottom > .inner > .scroll > a > span,
     header > .bottom{
-        height: 50px!important;
+        height: 93px!important;
     }
 
     header > .bottom{
@@ -98,24 +98,28 @@ header > .top > .inner > .no-auth {
         margin-right: 20px;
     }
     
-    header > .bottom > .inner > .scroll > a.oz > span{
-        background-image: url(../image/casino/oz.png);
+    /* header > .bottom > .inner > .scroll > a.oz > span{
+        background-image: url(../image/Mobile/CompanySelect_Oz.png);
     }
     
     header > .bottom > .inner > .scroll > a.cod > span{
         background-image: url(../image/casino/cod.png);
     }
+
+    header > .bottom > .inner > .scroll > a.ez > span{
+        background-image: url(../image/Mobile/CompanySelect_Ez.png);
+    }
     
     header > .bottom > .inner > .scroll > a.eight > span{
-        background-image: url(../image/casino/eight.png);
+        background-image: url(../image/Mobile/CompanySelect_88.png);
     }
     
     header > .bottom > .inner > .scroll > a.evo > span{
-        background-image: url(../image/casino/evo.png);
+        background-image: url(../image/Mobile/CompanySelect_Evol.png);
     }
     
     header > .bottom > .inner > .scroll > a.midas > span{
-        background-image: url(../image/casino/midas.png);
+        background-image: url(../image/Mobile/CompanySelect_Midas.png);
     }
     
     header > .bottom > .inner > .scroll > a.solaire > span{
@@ -124,7 +128,7 @@ header > .top > .inner > .no-auth {
     
     header > .bottom > .inner > .scroll > a.okada > span{
         background-image: url(../image/casino/okada.png);
-    }
+    } */
 }
 
 @media only screen and (min-width : 1920px){
@@ -211,9 +215,14 @@ header > .top > .inner > .no-auth {
         .bee-hive > .right > .in{
         height: 1030px!important;
     }
+    .bee-hive > .right > .game-container,
+    .bee-hive > .right > .in{
+        height: 1295px!important;
+}
 }
 
 @media only screen and (max-width : 867px){
+
 
     .game-container > .evo.bc {
         left: 156px!important;
@@ -272,17 +281,26 @@ header > .top > .inner > .no-auth {
     }
 
 
-    .bee-hive > .right > .game-container,
-        .bee-hive > .right > .in{
-        height: 1330px!important;
-    }
 
     
 }
 
 @media only screen and (max-width : 678px){
 
-    
+
+    .hex {
+        margin-right: 90px!important;
+    }
+    .hex-container:nth-child(even) {
+        margin-left: 89px!important;
+    }
+    .hex-container:nth-child(odd) {
+        margin-left: -116px!important;
+    }
+
+    .hex-container{
+        margin-top: -80px!important;
+    }
     .game-container > .evo.rou,
     .game-container > .evo.bc,
     .game-container > .oz.oe,
@@ -290,7 +308,7 @@ header > .top > .inner > .no-auth {
     .game-container > .ez.ws,
     .game-container > .ez.fp,
     .game-container > .ez.kv {
-        left: 69px!important;
+        left: 63px!important;
     }
 
     .game-container > .evo.bj,
@@ -299,7 +317,7 @@ header > .top > .inner > .no-auth {
     .game-container > .ez.sh,
     .game-container > .ez.td,
     .game-container > .md.bc{
-        left: 229px!important;
+        left: 199px!important;
     }
 
     .game-container > .evo.ch,
@@ -309,18 +327,164 @@ header > .top > .inner > .no-auth {
     .game-container > .ez.fl,
     .game-container > .ez.md,
     .game-container > .ei.bc {
-        left: 392px!important;
+        left: 338px!important
     }
-
-    .hex-container:nth-child(odd) {
-        margin-left: -136px!important;
-    }
-
     .hex-container:nth-child(even) {
-        margin-left: 28px!important;
+        margin-left: 21px!important;
+    }
+
+    .game-container > .evo.rou {
+        top: -8px!important;
+    }
+    
+    .game-container > .evo.bc {
+        top: 151px!important;
+    }
+    .game-container > .oz.oe {
+        top: 309px!important;
+    }
+
+    .game-container > .ez.fs {
+        top: 468px!important;
+    }
+
+    .game-container > .ez.ws {
+        top: 624px!important;
+    }
+
+    .game-container > .ez.fp {
+        top: 786px!important;
+    }
+    .game-container > .ez.kv {
+        top: 941px!important;
+    }
+
+
+    .game-container > .evo.ch {
+        top: -8px!important;
+    }
+    
+    .game-container > .oz.nn {
+        top: 151px!important;
+    }
+    .game-container > .oz.gs {
+        top: 309px!important;
+    }
+
+    .game-container > .ez.dd {
+        top: 468px!important;
+    }
+
+    .game-container > .ez.fl {
+        top: 624px!important;
+    }
+
+    .game-container > .ez.md {
+        top: 786px!important;
+    }
+    .game-container > .ei.bc {
+        top: 941px!important;
+    }
+
+    .game-container > .ez.dr {
+        top: 393px;
+    }
+
+    .game-container > .ez.sh {
+        top: 552px!important;
+    }
+
+    .game-container > .ez.td {
+        top: 706px!important;
+    }
+
+    .game-container > .md.bc {
+        top: 864px!important;
+    }
+    
+    
+    
+
+    .game-container > .evo.bj {
+        top: 72px!important;
+    }
+
+    .game-container > .oz.bc {
+        left: 315px;
+        top: 230px!important;
     }
 }
 
-@media only screen and (max-width : 550px){
+@media only screen and (max-width : 505px){
+
+
+    .game-container > .evo.ch {
+        left: 202px!important;
+        top: 231px!important;
+    }
+    .game-container > .oz.bc {
+        z-index: 2;
+        top: 390px!important;
+    }
+
+    .game-container > .oz.gs {
+        top: 544px!important;
+        left: 199px!important;
+    }
+
+    .game-container > .ez.dr {
+        top: 1179px;
+
+    }
+    .game-container > .oz.nn{
+        top: 468px!important;
+        left: 63px!important;
+        z-index: 2;
+    }
+
+    .game-container > .ez.sh,
+    .game-container > .ez.fl,
+    .game-container > .ei.bc,
+    .game-container > .ez.fs {
+        left: 199px!important;
+    }
+
+
+    .game-container > .ez.sh{
+        top: 864px!important;
+        
+    }
+
+    .game-container > .ez.dd{
+        left: 63px!important;
+        top: 1101px!important;
+    }
+
+    .game-container > .ez.fl{
+        top: 1019px!important;
+    }
+
+    .game-container > .ez.md{
+        left: 63px!important;
+        top: 1258px!important;
+    }
+
+    .game-container > .ei.bc{
+        top: 1493px!important;
+    }
+
+    .game-container > .md.bc{
+        left: 63px!important;
+        top: 1416px!important;
+    }
+
+    .game-container > .ez.fs {
+        top: 1335px!important;
+    }
+
+    
+    .bee-hive > .right > .game-container, .bee-hive > .right > .in {
+        height: 1723px!important;
+    }
 
 }
