@@ -729,31 +729,37 @@
                 <div class="info" id="info">       
                     <div class="info-container">
                         <a href="" class="purple"  onmouseover="setBgPurple(this)" onmouseout="setBgPurpleOff(this)" >
+                            <span>입금신청<br><span>DEPOSIT</span></span>
                             <svg class="hex-info" xmlns="http://www.w3.org/2000/svg" fill="#3c3f42" version="1.1" width="160" height="138" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon class="hex" points="160,69 128,0 32,0 0,69 32,138 128,138" fill="url(#image_purple)"></polygon>
                             </svg>
                         </a>
                         <a href="" class="purple" onmouseover="setBgPurple(this)"onmouseout="setBgPurpleOff(this)" >
+                            <span>출금신청<br><span>WITHDRAW</span></span>
                             <svg class="hex-info" xmlns="http://www.w3.org/2000/svg" fill="#3c3f42" version="1.1" width="160" height="138" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon class="hex" points="160,69 128,0 32,0 0,69 32,138 128,138" fill="url(#image_purple)"></polygon>
                             </svg>
                         </a>
                         <a href="" class="purple"  onmouseover="setBgPurple(this)" onmouseout="setBgPurpleOff(this)" >
+                            <span>포인트관리<br><span>MANAGE POINT</span></span>
                             <svg class="hex-info" xmlns="http://www.w3.org/2000/svg" fill="#3c3f42" version="1.1" width="160" height="138" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon class="hex" points="160,69 128,0 32,0 0,69 32,138 128,138" fill="url(#image_purple)"></polygon>
                             </svg>
                         </a>
                         <a href="" class="purple"  onmouseover="setBgPurple(this)"onmouseout="setBgPurpleOff(this)" >
+                            <span>이벤트<br><span>EVENT</span></span>
                             <svg class="hex-info" xmlns="http://www.w3.org/2000/svg" fill="#3c3f42" version="1.1" width="160" height="138" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon class="hex" points="160,69 128,0 32,0 0,69 32,138 128,138" fill="url(#image_purple)"></polygon>
                             </svg>
                         </a>
                         <a href="" class="purple"  onmouseover="setBgPurple(this)" onmouseout="setBgPurpleOff(this)" >
+                            <span>공지사항<br><span>NOTICE</span></span>
                             <svg class="hex-info" xmlns="http://www.w3.org/2000/svg" fill="#3c3f42" version="1.1" width="160" height="138" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon class="hex" points="160,69 128,0 32,0 0,69 32,138 128,138" fill="url(#image_purple)"></polygon>
                             </svg>
                         </a>
                         <a href="" class="purple"  onmouseover="setBgPurple(this)"onmouseout="setBgPurpleOff(this)" >
+                            <span>게임가이드<br><span>GAME GUIDE</span></span>
                             <svg class="hex-info" xmlns="http://www.w3.org/2000/svg" fill="#3c3f42" version="1.1" width="160" height="138" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon class="hex" points="160,69 128,0 32,0 0,69 32,138 128,138" fill="url(#image_purple)"></polygon>
                             </svg>
@@ -900,14 +906,23 @@
                 <!-- <span class="border-checker"></span> -->
             </div>
             <div class="left" id="left_container">
-                <div id="bee-left" class="in"></div>
+                <div id="bee_left" class="in">
+                    <div class="content">
+                       <div class="line">
+                        <img src="./image/Web/Title.png" alt="">
+                        <span>세계 최고의 온라인 카지노 솔루션</span>
+                        <p>럭키세븐 카지노는 글로벌 대형 카지노 업체들과의 <br>
+                            라이센스를 체결, 다양한 서비스를 저공하고 있습니다.</p>
+                       </div>
+                    </div>
+                </div>
             </div>
           
         </div>
         <script>
 
             function adjustView() {
-                var left = document.getElementById("bee-left");
+                var left = document.getElementById("bee_left");
                 var right = document.getElementById("bee-right");
                 var game_container = document.getElementById("game_container");
                 var info = document.getElementById("info");

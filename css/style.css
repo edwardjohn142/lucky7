@@ -9,6 +9,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: black;
+    max-width: 3360px;
+    margin: 0 auto;
 }
 
 .mobile{
@@ -18,6 +20,43 @@ body{
 .foot-logo{
     display: inline-block;
     vertical-align: top;
+}
+#bee_left{
+    text-align: right;
+}
+
+#bee_left > .content{ 
+    height: 752px;
+    width: 100%;
+    position: relative;
+}
+
+#bee_left > .content > .line{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+#bee_left > .content > .line > span{
+    color: #64b4e1;
+    display: block;
+    font-size: 17px;
+    font-family: DOTUMCHE;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    word-spacing: -5px;
+}
+
+#bee_left > .content > .line > p{
+    text-shadow: 0px 0px 2px black, 0px 0px 2px black;
+    color: white;
+    font-family: DOTUMCHE;
+    font-size: 11px;
+    line-height: 19px
 }
 
 main{
@@ -77,7 +116,7 @@ header > .top{
 .register > a{
     color: white;
     font-size: 12px;
-    font-family: gulim;
+    font-family: GULIMCHE;
 }
 
 .register > span{
@@ -251,10 +290,11 @@ header > .top > .inner > .logo {
     transition: none;
     right: 0;
     background-color: rgba(0, 0, 0, 1);
-    background-image: url(../image/left.png);
+    background-image: url(../image/Web/Title_Squaire.png), url(../image/Web/Title_Picture.png) ;
     /* background-size: contain; */
-    background-position: right top;
-    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x:-15%, 100%;
+    background-repeat: no-repeat, no-repeat;
 }
 
 .hex {
@@ -329,6 +369,8 @@ header > .top > .inner > .logo {
 
 .info-container a{
     width: 94px;
+    position: relative;
+    color: white;
 }
 
 .info-container a svg{
@@ -346,12 +388,28 @@ header > .top > .inner > .logo {
     display: inline-block;
 }
 
+.info-container a > span{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-family: DOTUM, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.4), 0 0 10px rgba(255, 255, 0, 0.4);
+}
+
+.info-container a > span > span{
+    font-size: 14px;
+}
+
 .info-two{
     height: 195px;
     background-image: url(../image/bg-third.png);
     background-repeat: no-repeat;
     background-position: left;
-    width: 1970px;
+    width: 1967px;
     margin-top: -46px;
     position: relative;
     left: -47px;
