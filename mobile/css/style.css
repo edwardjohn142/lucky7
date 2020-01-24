@@ -303,6 +303,8 @@ footer{
     position: absolute;
     top: 50px;
     height: 260px;
+    left: 0;
+    width: 100%;
 }
 
 .support-menu > div.content  > div > a{
@@ -318,30 +320,30 @@ footer{
 }
 
 .support-menu > div.content  > div > a:first-child{
-    left: 68px;
-    top: -4px;
+    left: 19px;
+    top: 12px;
 }
 
 .support-menu > div.content  > div > a:nth-child(2){
-    left: 283px;
-    top: -4px;
+    left: 239px;
+    top: 12px;
 }
 
 .support-menu > div.content  > div > a:nth-child(3){
-    left: 171px;
-    top: 61px;
+    left: 129px;
+    top: 73px;
 }
 
 .support-menu > div.content  > div > a:nth-child(4){
-    left: 68px;
-    top: 124px;
+    left: 19px;
+    top: 139px;
 }
 
 
 .support-menu > div.content  > div > img{
     position: absolute;
-    left: 290px;
-    top: 148px;
+    left: 243px;
+    top: 162px;
     width: 103px;
 }
 
@@ -359,6 +361,7 @@ footer{
 
 .support-menu > div.content > div{
     position: relative;
+    display: block;
 }
 
 .support-menu > div.content > div  > a > span:last-child{
