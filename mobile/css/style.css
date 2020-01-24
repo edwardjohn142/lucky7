@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 53px;
+    /* width: 100%; */
+    background-color: #327daf;
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+}
+
+header > a{
+    float: left;
+}
+
+header > a.logo > img{
+    width: 50px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.custom-round{
+    width: 110px;
+    box-sizing: content-box;
+    border:1px solid#1f1916 ;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.text-white{
+    color: #aaaaaa;
+}
+
+.text-black {
+    color :#1f1916;
+}
+
+
+.bg-black{
+    background-color: #1f1916;
+}
+
+
+.burger{
+    height: 28px;
+    width: 30px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 13px;
+    right: 0;
+}
+
+.burger > span{
+    width: 30px;
+    display: block;
+}
+.burger > span:nth-child(odd){
+    height: 5px;
+    width: 30px;
+    background-color: #1f1916;
+    border-radius: 10px;
+}
+
+
+.burger > span:nth-child(even){
+    height: 5px;
+}
+
+
+header >  .sign-in{
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 100%;
+}
+
+header >  .sign-in > a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #aaa;
+    vertical-align: middle;
+    margin: 10px 0px;
+
+}
+
+header >  .sign-in > a.head-register{
+    background-color: #1f1916;
+}
+
+header >  .sign-in > a.head-sign{
+    color: #1f1916;
+}
+
+ section > .bottom > .inner > .scroll > a.oz > span{
+        background-image: url(../image/Mobile/CompanySelect_Oz.png);
+    }
+    
+section > .bottom > .inner > .scroll > a.cod > span{
+    background-image: url(../image/casino/cod.png);
+}
+
+section > .bottom > .inner > .scroll > a.ez > span{
+    background-image: url(../image/Mobile/CompanySelect_Ez.png);
+}
+
+section > .bottom > .inner > .scroll > a.eight > span{
+    background-image: url(../image/Mobile/CompanySelect_88.png);
+}
+
+section > .bottom > .inner > .scroll > a.evo > span{
+    background-image: url(../image/Mobile/CompanySelect_Evol.png);
+}
+
+section > .bottom > .inner > .scroll > a.midas > span{
+    background-image: url(../image/Mobile/CompanySelect_Midas.png);
+}
+
+section > .bottom > .inner > .scroll > a.solaire > span{
+    background-image: url(../image/casino/solaire.png);
+}
+
+section > .bottom > .inner > .scroll > a.okada > span{
+    background-image: url(../image/casino/okada.png);
+}
+
+section > .bottom > .inner > .scroll > a > span{
+    width: 80px!important;
+}
+
+section > .bottom{
+    height: 50px;
+}
+
+section > .bottom > .inner > .scroll  > a:not(:last-child){
+    margin-right: 10px;
+}
+
+
+
+.inner {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+ .bottom > .inner> .scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+    /* text-align: left; */
+    background: repeating-linear-gradient( -45deg, #211c19, #211c19 17px, #1f1916 17px, #1f1916 34px );
+    height: 50px;
+    box-shadow: 0px 5px 8px black;
+    margin: 0 auto;
+    
+}
+ .bottom > .inner > .scroll > a > span{
+    height: 30px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    transition: none;
+    background-size: contain;
+}
+
+section > .bottom > .inner > .scroll > a{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+section.banner .inner{
+    height: 250px;
+    width: 100%;
+    background-image: url(./../image/Mobile/Picture.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.banner > .inner > .content > .line{
+    padding-top: 50px;
+    padding-right:17px ;
+}
+
+
+.banner > .inner > .content > .line > * {
+    text-align: right;
+    display: block;
+    /* font-weight: bold; */
+    margin-left: auto;
+}
+
+.banner > .inner > .content > .line > img{
+    margin-bottom: 50px;
+    max-width: 200px;
+}
+
+.banner > .inner > .content > .line > span{
+    color : #64b4e1;
+    font-family: DOTUM;
+    font-size: 12px;
+    text-shadow: 0px 0px 2px black, 0px 0px 2px black;
+    margin-bottom: 10px;
+}
+
+
+.banner > .inner > .content > .line > p{
+    color : #ffffff;
+    font-family: DOTUM;
+    font-size: 8px;
+    text-shadow: 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+section.header > .head{
+    height: 50px;
+    background-color: #327daf;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 15px;
+    font-weight: bold;
+    
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+    text-align: left;
+}
+
+
+section.live-casino.header > .head{
+    background-image: url(./../image/Mobile/TitleBG_A.png);
+    background-size: 75px;
+}
+
+section.reel-games.header > .head{
+    background-image: url(./../image/Mobile/TitleBG_B.png);
+    background-size: 93px;
+}
+
+section.support-menu.header > .head{
+    background-image: url(./../image/Mobile/TitleBG_C.png);
+    background-size: 55px;
+}
+
+
+section  > .content{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section  > .content > div{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+}
+
+section  > .content > div> a {
+   float: left;
+   max-width:  188px;
+   width: 50%;
+   height: 117px;
+    
+}
+
+
+footer{
+    height: 37px;
+    background-color: #327daf;
+    font-size: 12px;
+    color: white;
+    line-height: 37px;
+    text-align: center;
+}
+
+.support-menu{
+    text-align: center;
+    position: relative;
+}
+
+.support-menu > img{
+    max-width: 375px;
+}
+
+.support-menu > div.content{
+    position: absolute;
+    top: 50px;
+    height: 260px;
+}
+
+.support-menu > div.content  > div > a{
+    text-decoration: none;
+    height:110px ;
+    width: 122px;
+    color: white;
+    background-image: url(../image/Mobile/Hexagon3.png);
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    position: absolute;
+}
+
+.support-menu > div.content  > div > a:first-child{
+    left: 68px;
+    top: -4px;
+}
+
+.support-menu > div.content  > div > a:nth-child(2){
+    left: 283px;
+    top: -4px;
+}
+
+.support-menu > div.content  > div > a:nth-child(3){
+    left: 171px;
+    top: 61px;
+}
+
+.support-menu > div.content  > div > a:nth-child(4){
+    left: 68px;
+    top: 124px;
+}
+
+
+.support-menu > div.content  > div > img{
+    position: absolute;
+    left: 290px;
+    top: 148px;
+    width: 103px;
+}
+
+
+.support-menu > div.content > div > a > span:first-child{
+    display: inline-block;
+    font-size: 10px;
+    font-family: DOTUM, Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    /* padding: 9px 0; */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.4), 0 0 10px rgba(255, 255, 0, 0.4);
+}
+
+.support-menu > div.content > div{
+    position: relative;
+}
+
+.support-menu > div.content > div  > a > span:last-child{
+    display: block;
+    font-size: 8px;
+    margin-top: 0px;
+}
